@@ -1,98 +1,24 @@
 ---
 layout: post
-title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
+title: Twitter Bot in Python Using Tweepy
+subtitle : 
 tags: [HTML, Markdown]
-author: Nayeong Kim
+author: Gopika H
 comments : True
 ---
 
-This post show result from awesome Markdown techniques like jekyll. 
-`Jekyll` supports to transform your plain text into static websites and blogs. 
+From the day I got a set of tasks , I was so confused on which task should I choose. Then I found this task of tweeting using python interesting. First I was not very confident enough to do this as this task was under “the hard” section, but then I decided to give it a try. I didn’t know where to start , so I started searching more on that task in the internet.
 
-you can easy to change style in `_utility.html` and a sample of the formatting follows.
+First I created a twitter account followed by creating a twitter application. Application which is created in the twitter  provides us with the keys and token which helps us to link our code with our twitter account. We have to import tweepy in our code first  which is a python client for the official Twitter API. Tweepy can be installed using pip which is a software installation package in python that allows us to install various modules in python.  We get a consumer key,consumer key secret,access tokens and access token secret in the twitter application that was already created. I copied all these four keys and tokens to my code and stored each one under a variable in my python file.
 
-<br>
+Then I authenticated my credentials using inbuilt classes and functions in tweepy. Further I fetched my tweet again using some classes and function in tweepy.
 
-이 포스팅은 놀라운 Markdown 기술들로 만들어진 결과물입니다.
+twitter-python-logos.width-808
 
-`_utility.html`에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.
+ 
 
-<br>
+Finally I got my tweet which I have given in the python code in my twitter account.
 
-<h2>1. HTML headings</h2>
-{% highlight html %}
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
-{% endhighlight %}
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
+I faced lot of challenges while doing this task . I got lot of errors in my code while doing it and solving all those were not a simple task as we need lot of patience to rectify all those errors,but at the same time it was fun doing it .
 
-<br>
-
-<h2>2. bold text</h2>
-{% highlight html %}
-<p>This is normal text - <b>and this is bold text</b>.</p>
-{% endhighlight %}
-<p>This is normal text - <b>and this is bold text</b>.</p>
-
-<br>
-
-<h2>3. list</h2>
-<h3>a. unordered list</h3>
-{% highlight html %}
-- Coffee
-- Tea
-- Milk
-{% endhighlight %}
-- Coffee
-- Tea
-- Milk
-
-<h3>b. ordered list</h3>
-{% highlight html %}
-1. Coffee
-2. Tea
-3. Milk
-{% endhighlight %}
-1. Coffee
-2. Tea
-3. Milk
-
-<br>
-
-<h2>4. hyperlink</h2>
-{% highlight html %}
-[naye0ng's blog](https://naye0ng.github.io)
-{% endhighlight %}
-[naye0ng's blog](https://naye0ng.github.io)
-
-<br>
-
-<h2>5. image</h2>
-{% highlight html %}
-![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg)
-{% endhighlight %}
-![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg)
-
-<br>
-
-<h2>5. table</h2>
-{% highlight html %}
-| Header 1  | Header 2 | Header 3 |
-| :------- | :-------: | -------: |
-| Content 1  | Content 2 | Content 3 |
-| Content 1  | Content 2 | Content 3 |
-{% endhighlight %}
-| Header 1  | Header 2 | Header 3 |
-| :------- | :-------: | -------: |
-| Content 1 | Content 2 | Content 3 |
-| Content 1 | Content 2 | Content 3 |
+ 
